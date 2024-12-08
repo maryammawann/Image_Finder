@@ -66,7 +66,7 @@ def find_top_similar_images(query_image, feature_list, image_names, folder_path,
 
 # Streamlit app
 def main():
-    st.title("Visual Pattern Detector")
+    st.title("Similar Image Finder")
     
     # Step 1: Read the pre-uploaded CSV file
     st.subheader("Step 1: Reading CSV File")
